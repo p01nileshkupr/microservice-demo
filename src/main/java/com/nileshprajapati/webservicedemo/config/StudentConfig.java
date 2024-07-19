@@ -1,5 +1,7 @@
-package com.nileshprajapati.webservicedemo.student;
+package com.nileshprajapati.webservicedemo.config;
 
+import com.nileshprajapati.webservicedemo.model.Student;
+import com.nileshprajapati.webservicedemo.repository.StudentRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
