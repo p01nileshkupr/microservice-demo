@@ -1,5 +1,6 @@
-package com.nileshprajapati.webservicedemo.student;
+package com.nileshprajapati.webservicedemo.repository;
 
+import com.nileshprajapati.webservicedemo.model.Student;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;

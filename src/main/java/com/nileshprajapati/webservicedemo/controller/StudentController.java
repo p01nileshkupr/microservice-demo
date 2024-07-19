@@ -1,5 +1,7 @@
-package com.nileshprajapati.webservicedemo.student;
+package com.nileshprajapati.webservicedemo.controller;
 
+import com.nileshprajapati.webservicedemo.model.Student;
+import com.nileshprajapati.webservicedemo.service.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -16,7 +18,7 @@ public class StudentController {
         this.studentService = studentService;
     }
 
-    @GetMapping(path = "all")
+    @GetMapping(path = "getAll")
     public List<Student> getStudents() {
         return studentService.getAllStudentsFromRepository();
     }
